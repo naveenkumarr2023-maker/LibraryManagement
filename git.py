@@ -30,14 +30,6 @@ def update_student():
     else:
         print("Student not found.")
 
-def delete_student():
-    roll = input("Enter Roll Number to delete: ")
-    if roll in students:
-        del students[roll]
-        print("Student deleted successfully.")
-    else:
-        print("Student not found.")
-
 while True:
     print("\n--- Student Registration Menu ---")
     print("1. Add Student")
