@@ -5,7 +5,7 @@ students = {}
 def add_student():
     roll = input("Enter Roll Number: ")
     if roll in students:
-        print("Student already exists!")
+        print("Student already exists!")    
         return
     name = input("Enter Name: ")
     course = input("Enter Course: ")
